@@ -1,7 +1,8 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-// #FFD739
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function About() {
   return <>
@@ -14,6 +15,20 @@ function About() {
      I am also a fast learner who likes to constantly upgrade myself.</p>
      <p style={{fontSize:"14px",margin:"10px 0px",fontWeight:700}}>rahmanabdul10@outlook.com</p>
      <p style={{fontSize:"14px",margin:"0px 0px 20px 0px",fontWeight:600}}>9600528513</p>
+     <Box sx={{display:"flex",alignItems:"center",gap:2,marginBottom:"12px"}}>
+      <a className='text' href="https://github.com/abdul-rahman-1999"><GitHubIcon sx={{width:"40px",height:"40px"}}/></a>
+      <a className='text' href="https://www.linkedin.com/in/syed-abdul-rahman-85192922b/"><LinkedInIcon sx={{color:"#0A66C2",width:"40px",height:"40px"}}/></a>
+      <a className='text' href="https://app.netlify.com/teams/abdul-rahman-1999/overview">
+        <Box
+        component="img"
+        src="images/netlify.svg"
+        sx={{
+        objectFit:"cover",
+        width:"40px",
+        height:"40px",
+        }}
+        /></a>
+     </Box>
      <a className='anchor' href="Abdul Rahman.pdf" download="Abdul Rahman.pdf"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"8px 16px"}}>Download My CV</Button></a>
    </Box>
    <Box sx={{backgroundColor:"#FFD739"}}>
