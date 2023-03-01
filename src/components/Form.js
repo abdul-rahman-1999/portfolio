@@ -41,7 +41,7 @@ function Form() {
 
   return <>
   <h6 style={{fontSize:"20px",textAlign:"center",margin:"30px 0px 30px 0px"}}>Fill this Form to Reach Me...🤗</h6>
-  <Box sx={{display:"flex",flexDirection:"column",gap:3,width:{xs:"80%",sm:"80%",md:"50%"},margin:"0px auto",justifyContent:"center"}}>
+  <Box sx={{display:"flex",flexDirection:"column",gap:3,width:{xs:"80%",sm:"80%",md:"50%"},margin:"0px auto",justifyContent:"center",padding:"0px 0px 20px 0px"}}>
 
   <form ref={form} onSubmit = {handleSubmit} id="Form">
 

@@ -6,10 +6,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function About() {
   return <>
-  <Box id="About" sx={{display:"flex",flexDirection:{xs:"column",sm:"row"},justifyContent:"space-around",alignItems:"center",width:{xs:"80%",sm:"80%",md:"60%"},margin:"65px auto 30px auto",gap:{xs:3,sm:5}}}>
+  <Box id="About" sx={{display:"flex",flexDirection:{xs:"column",sm:"row"},justifyContent:"space-around",alignItems:"center",width:{xs:"80%",sm:"80%",md:"60%"},margin:"95px auto 30px auto",gap:{xs:3,sm:5}}}>
 
    <Box>
-    <h6 style={{fontSize:"20px",margin:"10px 0px",fontFamily:"tahoma",color:"#333"}}>Hi I'm Syed Abdul Rahman</h6>
+    <h6 style={{fontSize:"20px",margin:"0px 0px 10px 0px",fontFamily:"tahoma",color:"#333"}}>Hi I'm Syed Abdul Rahman</h6>
     <h6 style={{fontSize:"18px",margin:"10px 0px",fontFamily:"tahoma",color:"#e9ba00"}}>Full Stack MERN Developer</h6>
     <p style={{fontSize:"14px",lineHeight:"23px",fontWeight:500,textAlign:"justify"}}>I am a confident, self driven, passionate, hardworking fresher looking for an opportunity to work in a challenging environment and grow up with the organization.
      I am also a fast learner who likes to constantly upgrade myself.</p>
@@ -29,7 +29,7 @@ function About() {
         }}
         /></a>
      </Box>
-     <a className='anchor' href="Abdul Rahman.pdf" download="Abdul Rahman.pdf"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"8px 16px"}}>Download My CV</Button></a>
+     <a className='anchor' onClick={() => window.open("https://drive.google.com/file/d/1Q4lwqn7APzy6JpWMln_g1w10qDImr7sR/view")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"8px 16px"}}>Click Here For Resume</Button></a>
    </Box>
    <Box sx={{backgroundColor:"#FFD739"}}>
     <Box

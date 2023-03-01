@@ -8,7 +8,7 @@ function Projects() {
   <h6 id="Projects" style={{fontSize:"20px",textAlign:"center",margin:"30px 0px 30px 0px"}}>Projects</h6>
   <Box sx={{display:"flex",flexDirection:{xs:"column",sm:"row"},gap:{xs:3,sm:5},width:{xs:"80%",sm:"90%",md:"80%"},margin:"0px auto",flexWrap:"wrap",justifyContent:"center"}}>
 
-   <Paper sx={{padding:"10px 20px",width:{sm:"50%",md:"25%"}}}>
+   {/* <Paper sx={{padding:"10px 20px",width:{sm:"50%",md:"25%"}}}>
    <Box
     component="img"
     src="images/utubeclone.png"
@@ -25,7 +25,7 @@ function Projects() {
     <a style={{textDecoration:"none"}} href="https://stupendous-sprinkles-375b8d.netlify.app/"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github</Button></a>
     <a style={{textDecoration:"none"}} href="https://verdant-manatee-6c741f.netlify.app/"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
     </Box>
-   </Paper>
+   </Paper> */}
 
    <Paper sx={{padding:"10px 20px",width:{sm:"40%",md:"25%"}}}>
    <Box
@@ -37,14 +37,12 @@ function Projects() {
         height:{xs:"200px",sm:"200px"},
     }}
     />
-    <h6 style={{fontSize:"20px",textAlign:"center",margin:"10px"}}>Book My Show</h6>
-    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>This Project is the Second Webcode of Mine from GUVI. In this Project Technology which I used is React JS, Node JS, Express JS, Mongo DB a Full Stack Web Application to book a Movie Tickets.
-     In this Project I Implement New Things like Authentication & Authorization Which the User used to Register and Login to Enter into an Application.</p>
-
+    <h6 style={{fontSize:"18px",textAlign:"center",margin:"10px 0px"}}>Book My Show</h6>
+    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>Users can Book Tickets for Movie and get a Confirmation mail of ticket. Concepts Which I used Authentication, Context API, Fetch, Nodemailer. The Tech Stack Which I used is MERN.</p>
     <Box sx={{display:"flex",flexDirection:"column",gap:{xs:1,sm:1},flexWrap:"wrap",justifyContent:"center"}}>
-    <a style={{textDecoration:"none"}} href="https://github.com/abdul-rahman-1999/bookmyshow-frontend"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
-    <a style={{textDecoration:"none"}} href="https://github.com/abdul-rahman-1999/bookmyShow-Backend"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
-    <a style={{textDecoration:"none"}} href="https://superlative-gumdrop-e9fb14.netlify.app/"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/bookmyshow-frontend")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/bookmyShow-Backend")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://superlative-gumdrop-e9fb14.netlify.app/")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
     </Box>
    </Paper>
 
@@ -58,14 +56,50 @@ function Projects() {
         height:{xs:"200px",sm:"200px"},
     }}
     />
-    <h6 style={{fontSize:"20px",textAlign:"center",margin:"10px"}}>Dress Color Suggestion</h6>
-    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>This Project is the First Capstone Project of Mine from GUVI. In this Project Technology which I used is React JS, Node JS, Express JS, Mongo DB a Full Stack Web Application to Suggest Colors on Daily Basis for Women.
-     In this Project also I Implement Authentication & Authorization as well as I Implement another new Technology also for Just Authentication & Authorization only using Firebase that the User can Signin with Google also but unfortunately not Working because I gave auth permission to my Application from My backend otherwise It Works Perfectly and My Code is in Github. And also I Implement Add to Cart, Cart Value Updation using Context API & useReducer hook and Checkout Page which all the E-Commerce website have.</p>
-
+    <h6 style={{fontSize:"18px",textAlign:"center",margin:"10px 0px"}}>Dress Color Suggestion</h6>
+    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>Users can get a Color Suggestions for dress & Order dress using Payment. Concepts Which I used Authentication, Context API, Fetch, Payment. The Tech Stack Which I used is MERN.</p>
     <Box sx={{display:"flex",flexDirection:"column",gap:{xs:1,sm:1},flexWrap:"wrap",justifyContent:"center"}}>
-    <a style={{textDecoration:"none"}} href="https://github.com/abdul-rahman-1999/daliyDressShop-FrontEnd"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
-    <a style={{textDecoration:"none"}} href="https://github.com/abdul-rahman-1999/dailyDressShop-Backend"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
-    <a style={{textDecoration:"none"}} href="https://stupendous-sprinkles-375b8d.netlify.app/"><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/daliyDressShop-FrontEnd")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/dailyDressShop-Backend")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://stupendous-sprinkles-375b8d.netlify.app/")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
+    </Box>
+   </Paper>
+
+      <Paper sx={{padding:"10px 20px",width:{sm:"40%",md:"25%"}}}>
+   <Box
+    component="img"
+    src="images/chatApp.png"
+    sx={{
+        objectFit:"contain",
+        width:{xs:"100%",sm:"100%"},
+        height:{xs:"200px",sm:"200px"},
+    }}
+    />
+    <h6 style={{fontSize:"18px",textAlign:"center",margin:"10px 0px"}}>Chat Application</h6>
+    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>Users who are in Online they can Send Messages to each other via this App. Concepts Which I used Authentication, Context API, Fetch, WebSocket (ws). The Tech Stack Which I used is MERN.</p>
+    <Box sx={{display:"flex",flexDirection:"column",gap:{xs:1,sm:1},flexWrap:"wrap",justifyContent:"center"}}>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/ChatApp-FrontEnd")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/ChatApp-Backend")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://spectacular-syrniki-b51c37.netlify.app/")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
+    </Box>
+   </Paper>
+
+      <Paper sx={{padding:"10px 20px",width:{sm:"40%",md:"25%"}}}>
+   <Box
+    component="img"
+    src="images/fileUpload.png"
+    sx={{
+        objectFit:"contain",
+        width:{xs:"100%",sm:"100%"},
+        height:{xs:"200px",sm:"200px"},
+    }}
+    />
+    <h6 style={{fontSize:"18px",textAlign:"center",margin:"10px 0px"}}>File Upload Application</h6>
+    <p style={{fontSize:"14px",margin:"14px auto",width:"90%",textAlign:"justify",lineHeight:"24px",fontWeight:500}}>Users can Post Pictures & like each other's Post & get Notification instantly. Concepts Which I used Authentication, Context API, Fetch, Socket IO. The Tech Stack Which I used is MERN.</p>
+    <Box sx={{display:"flex",flexDirection:"column",gap:{xs:1,sm:1},flexWrap:"wrap",justifyContent:"center"}}>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/SimpleMedia-FrontEnd")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github FrontEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://github.com/abdul-rahman-1999/simpleMedia-Backend")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Github BackEnd</Button></a>
+    <a style={{textDecoration:"none"}} onClick={() => window.open("https://moonlit-valkyrie-487721.netlify.app/")}><Button sx={{backgroundColor:"#FFD739",color:"black",padding:"5px 20px",width:"100%"}}>Netlify</Button></a>
     </Box>
    </Paper>
 
