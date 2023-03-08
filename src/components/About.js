@@ -16,9 +16,9 @@ function About() {
      <p style={{fontSize:"14px",margin:"10px 0px",fontWeight:700}}>rahmanabdul10@outlook.com</p>
      <p style={{fontSize:"14px",margin:"0px 0px 20px 0px",fontWeight:600}}>9600528513</p>
      <Box sx={{display:"flex",alignItems:"center",gap:2,marginBottom:"12px"}}>
-      <a className='text' href="https://github.com/abdul-rahman-1999"><GitHubIcon sx={{width:"40px",height:"40px"}}/></a>
-      <a className='text' href="https://www.linkedin.com/in/syed-abdul-rahman-85192922b/"><LinkedInIcon sx={{color:"#0A66C2",width:"40px",height:"40px"}}/></a>
-      <a className='text' href="https://app.netlify.com/teams/abdul-rahman-1999/overview">
+      <a className='text' onClick={() => window.open("https://github.com/abdul-rahman-1999")}><GitHubIcon sx={{width:"40px",height:"40px"}}/></a>
+      <a className='text' onClick={() => window.open("https://www.linkedin.com/in/syed-abdul-rahman-85192922b/")}><LinkedInIcon sx={{color:"#0A66C2",width:"40px",height:"40px"}}/></a>
+      <a className='text' onClick={() => window.open("https://app.netlify.com/teams/abdul-rahman-1999/overview")}>
         <Box
         component="img"
         src="images/netlify.svg"
