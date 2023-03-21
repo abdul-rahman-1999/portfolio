@@ -13,7 +13,7 @@ function About() {
     <h6 style={{fontSize:"18px",margin:"10px 0px",fontFamily:"tahoma",color:"#e9ba00"}}>Full Stack MERN Developer</h6>
     <p style={{fontSize:"14px",lineHeight:"23px",fontWeight:500,textAlign:"justify"}}>I am a confident, self driven, passionate, hardworking fresher looking for an opportunity to work in a challenging environment and grow up with the organization.
      I am also a fast learner who likes to constantly upgrade myself.</p>
-     <p style={{fontSize:"14px",margin:"10px 0px",fontWeight:700}}>rahmanabdul10@outlook.com <br/> <span style={{coor:"grey",fontSize:"13px",fontWeight:600}}>Or</span> <br/>syedrahmanabdul5@gmail.com</p>
+     <p style={{fontSize:"14px",margin:"10px 0px",fontWeight:700}}>rahmanabdul10@outlook.com</p>
      <p style={{fontSize:"14px",margin:"0px 0px 20px 0px",fontWeight:600}}>9600528513</p>
      <Box sx={{display:"flex",alignItems:"center",gap:2,marginBottom:"12px"}}>
       <a className='text' onClick={() => window.open("https://github.com/abdul-rahman-1999")}><GitHubIcon sx={{width:"40px",height:"40px", cursor:"pointer"}}/></a>
